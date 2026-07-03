@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de kilómetros a millas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/ejercicio11.css">
+    <script src="js/ejercicio11.js" defer></script>
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <h1>Conversor de kilómetros a millas</h1>
+        <p class="subtitulo">Convierte kilómetros a millas fácilmente</p>
+        <div class="grupo-formulario">
+            <label for="kilometro">Kilómetros (km)</label>
+            <input type="number" id="kilometro" placeholder="Ejemplo: 20">
+        </div>
+        <button id="btnConvertir" class="boton-enviar">Convertir</button>
+        <div class="grupo-formulario">
+            <label for="millas">Millas(mi)</label>
+            <input type="text" id="millas" readonly placeholder="Resultado">
+        </div>
+        <p id="mensajeError" class="mensaje-error"></p>
+    </div>
+</body>
+</html>
