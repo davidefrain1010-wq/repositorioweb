@@ -1,4 +1,4 @@
-# 🌐 Portafolio de Desarrollo Web | Frontend
+# Portafolio de Desarrollo Web | Frontend
 
 **Autor:** Jóse Ramos David Efraín
 **Institución:** Instituto Tecnológico de Oaxaca (ITO)  
@@ -43,34 +43,6 @@ El enfoque principal es escribir **código limpio**, usar **semántica correcta*
 
 ---
 
-## Estructura del proyecto
-
-repositorioweb/
-|README.md
-|index.html
-|prograweb/
-├── ejercicio1.html
-├── ejercicio2.html
-├── ejercicio3.html
-├── ejercicio4.html
-├── ejercicio5.html
-├── ejercicio6.html
-├── ejercicio7.html
-├── ejercicio8.html
-├── ejercicio9.html
-├── ejercicio10.html
-├── css/
-│ ├── ejercicio8.css
-│ ├── ejercicio9.css
-│ └── ejercicio10.css
-├── js/
-│ └── ejercicio10.js
-├── img/
-  ├── paisaje.jpg
-  └── viaje.jpg
-
----
-
 ##  Enlaces de revisión
 
 - **Repositorio:** [Ver en GitHub](https://github.com/davidefrain1010-wq/repositorioweb)
@@ -87,6 +59,4 @@ El mayor reto fue entender cómo CSS trata los elementos como “cajas” y cóm
 En conclusión, fue una experiencia muy enriquecedora para mis bases como desarrollador frontend.
 
 ---
-
-> **Nota:** Este `README.md` se actualizará conforme avance en la materia y agregue nuevos proyectos.
 
