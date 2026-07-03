@@ -1,4 +1,4 @@
-# Portafolio de Desarrollo Web | Frontend
+# Portafolio de Desarrollo Web
 
 **Autor:** Jóse Ramos David Efraín
 **Institución:** Instituto Tecnológico de Oaxaca (ITO)  
@@ -55,8 +55,7 @@ El enfoque principal es escribir **código limpio**, usar **semántica correcta*
 Durante esta práctica reforcé conceptos clave de programación web.  
 Descubrí nuevas posibilidades como los selectores CSS avanzados, la validación de formularios en el lado del cliente y la integración de JavaScript para manipular el DOM.
 
-El mayor reto fue entender cómo CSS trata los elementos como “cajas” y cómo aplicar selectores de pseudo-clase para mejorar la interfaz.  
-En conclusión, fue una experiencia muy enriquecedora para mis bases como desarrollador frontend.
+El mayor reto fue entender cómo CSS trata los elementos como “cajas” y cómo aplicar selectores de pseudo-clase para mejorar la interfaz.
 
 ---
 
