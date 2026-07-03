@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | DevSolutions</title>
+    <link rel="stylesheet" href="css/ejercicio9.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <h1>Contáctanos</h1>
+        <p class="subtitulo">¿Tienes dudas? Escríbenos y te responderemos en 24h.</p>
+
+        <form class="formulario">
+            <div class="grupo-formulario">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" placeholder="Ej: Ana Pérez" required>
+            </div>
+
+        <div class="grupo-doble">
+            <div class="grupo-formulario">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="ana@ejemplo.com" required>
+            </div>
+                <div class="grupo-formulario">
+                <label for="telefono">Teléfono <span>(opcional)</span></label>
+                <input type="tel" id="telefono" placeholder="+52 55 1234 5678">
+            </div>
+        </div>
+
+        <div class="grupo-formulario">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" rows="5" placeholder="Describe tu consulta..." required></textarea>
+        </div>
+
+            <button type="submit" class="boton-enviar">
+                Enviar mensaje <span></span>
+            </button>
+        </form>
+    </div>
+</body>
+</html>
