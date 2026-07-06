@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM</title>
+    <link rel="stylesheet" href="css/ejercicio18.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="js/ejercicio18.js" defer></script>
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <h1>Agregar y eliminar elementos</h1>
+        <p class="subtitulo">Escribe un elemento y agrégalo a la lista</p>
+
+        <div class="grupo-formulario">
+            <label for="nuevoElemento">Nuevo elemento</label>
+            <input type="text" id="nuevoElemento" placeholder="Escribe algo...">
+        </div>
+
+        <button id="agregarBtn" class="boton-enviar">Agregar</button>
+
+        <div class="grupo-formulario">
+            <label>Lista de elementos</label>
+            <ul id="lista" class="lista-elementos">
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
