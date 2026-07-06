@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de pesos(MXN) a dólares(USD)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/ejercicio12.css">
+    <script src="js/ejercicio12.js" defer></script>
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <h1>Conversor de pesos(MXN) a dólares(USD)</h1>
+        <p class="subtitulo">Convierte pesos a dólares fácilmente</p>
+        <div class="grupo-formulario">
+            <label for="pesos">Pesos (MXN)</label>
+            <input type="number" id="pesos" placeholder="Ejemplo: 500">
+        </div>
+        <button id="btnConvertir" class="boton-enviar">Convertir</button>
+        <div class="grupo-formulario">
+            <label for="dolares">Dólares (USD)</label>
+            <input type="text" id="dolares" readonly placeholder="Resultado">
+        </div>
+        <p id="mensajeError" class="mensaje-error"></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de calificaciones y promedio</title>
+    <link rel="stylesheet" href="css/actividad15.css">
+    <script src="js/actividad15.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Registro de estudiantes</h1>
+        <p class="subtitulo">Ingresa nombre y calificación de cada estudiante</p>
+
+        <div class="grupo">
+            <label for="nombre">Nombre del estudiante</label>
+            <input type="text" id="nombre" placeholder="Ej: David Efraín José Ramos">
+        </div>
+        <div class="grupo">
+            <label for="calificacion">Calificación</label>
+            <input type="number" id="calificacion" placeholder="Ej: 85" step="any" min="0">
+        </div>
+
+        <button id="btnAgregar">Agregar estudiante</button>
+
+        <div id="listaEstudiantes" class="lista">
+            <p><em>No hay estudiantes agregados aún.</em></p>
+        </div>
+
+        <button id="btnCalcular">Calcular</button>
+
+        <div class="grupo">
+            <label for="promedio">Calificación promedio</label>
+            <input type="text" id="promedio" readonly placeholder="Resultado">
+        </div>
+        <div class="grupo">
+            <label for="masAlto">Estudiante con calificación más alta</label>
+            <input type="text" id="masAlto" readonly placeholder="Resultado">
+        </div>
+        <div class="grupo">
+            <label for="masBajo">Estudiante con calificación más baja</label>
+            <input type="text" id="masBajo" readonly placeholder="Resultado">
+        </div>
+
+        <p id="mensajeError" class="error"></p>
+    </div>
+
+    
+</body>
+</html>

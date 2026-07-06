@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obtener el número mayor, menor y promedio</title>
+    <link rel="stylesheet" href="css/actividad14.css">
+    <script src="js/actividad14.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>El número mayor, menor y promedio</h1>
+        <p class="subtitulo">Ingresa varios números separados por comas</p>
+
+        <div class="grupo">
+            <label for="numeros">Números (ej: 10,20,30)</label>
+            <input type="text" id="numeros" placeholder="Ejemplo: 10, 20, 30">
+        </div>
+
+        <button id="btnCalcular">Calcular</button>
+
+        <div class="grupo">
+            <label for="mayor">Número mayor</label>
+            <input type="text" id="mayor" readonly placeholder="Resultado">
+        </div>
+
+        <div class="grupo">
+            <label for="menor">Número menor</label>
+            <input type="text" id="menor" readonly placeholder="Resultado">
+        </div>
+
+        <div class="grupo">
+            <label for="promedio">Promedio</label>
+            <input type="text" id="promedio" readonly placeholder="Resultado">
+        </div>
+
+        <p id="mensajeError" class="error"></p>
+    </div>
+
+</body>
+</html>
